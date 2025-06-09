@@ -1,148 +1,130 @@
 {
-    "potions": {
-        "luck": {
-            "name": "Luck",
-            "descriptions": "Gain Luck x5 and reroll all Droids.",
-            "recipe": [
-                "abate",
-                "accure"
-            ],
-            "recipeReadable": "Abate and Accure"
-        },
-        "healing": {
-            "name": "Healing",
-            "descriptions": "Heal HP equal to 10x World #.",
-            "recipe": [
-                "fervor",
-                "accure"
-            ],
-            "recipeReadable": "Fervor and Accure"
-        },
-        "Protection": {
-            "name": "Protection",
-            "descriptions": "Gain maxHP equal to 10x World #.",
-            "recipe": [
-                "fervor",
-                "ardor"
-            ],
-            "recipeReadable": "Fervor and Ardor"
-        },
-        "Regeneration": {
-            "name": "Regeneration",
-            "descriptions": "Gain maxHP equal to 10x World #.",
-            "recipe": [
-                "virulent",
-                "theriac"
-            ],
-            "recipeReadable": "Virulent and Theriac"
-        },
-        "StatsUp": {
-            "name": "StatsUp",
-            "descriptions": "Boost Stats when consumed. Random: +1 Speed or +5 Jump",
-            "recipe": [
-                "gambol",
-                "tenebrous"
-            ],
-            "recipeReadable": "Gambol and Tenebrous"
-        },
-        "Swiftness": {
-            "name": "Swiftness",
-            "descriptions": "+3 speed",
-            "recipe": [
-                "gambol",
-                "skew"
-            ],
-            "recipeReadable": "Gambol and Skew"
-        },
-        "Warping": {
-            "name": "Warping",
-            "descriptions": "Warp backwards one world.",
-            "recipe": [
-                "abate",
-                "ichor"
-            ],
-            "recipeReadable": "Abate and Ichor"
-        },
-        "Resistance": {
-            "name": "Resistance",
-            "descriptions": "+1 defense if no defense, then gain 2 defense",
-            "recipe": [
-                "vigor",
-                "ardor"
-            ],
-            "recipeReadable": "Vigor and Ardor"
-        },
-        "Brawn": {
-            "name": "Brawn",
-            "descriptions": "Gain 3x World number when consumed.",
-            "recipe": [
-                "vigor",
-                "ichor"
-            ],
-            "recipeReadable": "Vigor and Ichor"
-        },
-        "Affluence": {
-            "name": "Affluence",
-            "descriptions": "Gain circuits equal to the room number (Can't be used in the same room obtained",
-            "recipe": [
-                "lucre",
-                "virulent"
-            ],
-            "recipeReadable": "Lucre and Virulent"
-        },
-        "Jumping": {
-            "name": "Jumping",
-            "descriptions": "+20 jump",
-            "recipe": [
-                "cavort",
-                "lucre"
-            ],
-            "recipeReadable": "Cavort and Lucre"
-        },
-        "Chance": {
-            "name": "Chance",
-            "descriptions": "+25HP + Copies the effect of a random potion",
-            "recipe": [
-                "skew",
-                "cavort"
-            ],
-            "recipeReadable": "Skew and Cavort"
-        },
-        "Sustaining" : {
-            "name": "Sustaining",
-            "descriptions": "Have MaxHP, restore MaxHP equal to current HP, and then restore 100HP",
-            "recipe": [
-                "tenebrous",
-                "theriac"
-            ],
-            "recipeReadable": "Tenebrous and Theriac"
-        },
-        "IceResist" : {
-            "name": "IceResist",
-            "descriptions": "Ice hazard immunity",
-            "recipe": [
-                "algid",
-                "luminous"
-            ],
-            "recipeReadable": "Algid and Luminous"
-        },
-        "FireResist" : {
-            "name": "FireResist",
-            "descriptions": "Fire hazard immunity",
-            "recipe": [
-                "torrid",
-                "luminous"
-            ],
-            "recipeReadable": "Torrid and Luminous"
-        },
-        "Balance" : {
-            "name": "Balance",
-            "descriptions": "Resets below average speed and jump, then gain slight boost in MaxHP, speed and jump",
-            "recipe": [
-                "torrid",
-                "luminous"
-            ],
-            "recipeReadable": "Torrid and Luminous"
-        }
-    }
+  "luck": {
+    "name": "Luck",
+    "description": "Gain Luck x5 and reroll all Droids.",
+    "recipe": [
+      "abate",
+      "accure"
+    ]
+  },
+  "healing": {
+    "name": "Healing",
+    "description": "Heal HP equal to 10x World #.",
+    "recipe": [
+      "fervor",
+      "accure"
+    ]
+  },
+  "Protection": {
+    "name": "Protection",
+    "description": "Gain maxHP equal to 10x World #.",
+    "recipe": [
+      "fervor",
+      "ardor"
+    ]
+  },
+  "Regeneration": {
+    "name": "Regeneration",
+    "description": "Gain maxHP equal to 10x World #.",
+    "recipe": [
+      "virulent",
+      "theriac"
+    ]
+  },
+  "StatsUp": {
+    "name": "StatsUp",
+    "description": "Boost Stats when consumed. Random: +1 Speed or +5 Jump",
+    "recipe": [
+      "gambol",
+      "tenebrous"
+    ]
+  },
+  "Swiftness": {
+    "name": "Swiftness",
+    "description": "+3 speed",
+    "recipe": [
+      "gambol",
+      "skew"
+    ]
+  },
+  "Warping": {
+    "name": "Warping",
+    "description": "Warp backwards one world.",
+    "recipe": [
+      "abate",
+      "ichor"
+    ]
+  },
+  "Resistance": {
+    "name": "Resistance",
+    "description": "+1 defense if no defense, then gain 2 defense",
+    "recipe": [
+      "vigor",
+      "ardor"
+    ]
+  },
+  "Brawn": {
+    "name": "Brawn",
+    "description": "Gain 3x World number when consumed.",
+    "recipe": [
+      "vigor",
+      "ichor"
+    ]
+  },
+  "Affluence": {
+    "name": "Affluence",
+    "description": "Gain circuits equal to the room number (Can't be used in the same room it was obtained in)",
+    "recipe": [
+      "lucre",
+      "virulent"
+    ]
+  },
+  "Jumping": {
+    "name": "Jumping",
+    "description": "+20 jump",
+    "recipe": [
+      "cavort",
+      "lucre"
+    ]
+  },
+  "Chance": {
+    "name": "Chance",
+    "description": "+25HP + Copies the effect of a random potion",
+    "recipe": [
+      "skew",
+      "cavort"
+    ]
+  },
+  "Sustaining": {
+    "name": "Sustaining",
+    "description": "Half MaxHP, restore MaxHP equal to current HP, and then restore 100HP",
+    "recipe": [
+      "tenebrous",
+      "theriac"
+    ]
+  },
+  "IceResist": {
+    "name": "IceResist",
+    "description": "Ice hazard immunity",
+    "recipe": [
+      "algid",
+      "luminous"
+    ]
+  },
+  "FireResist": {
+    "name": "FireResist",
+    "description": "Fire hazard immunity",
+    "recipe": [
+      "torrid",
+      "luminous"
+    ]
+  },
+  "Balance": {
+    "name": "Balance",
+    "description": "Resets below average speed and jump, then gain slight boost in MaxHP, speed and jump",
+    "recipe": [
+      "torrid",
+      "luminous"
+    ]
+  }
 }
